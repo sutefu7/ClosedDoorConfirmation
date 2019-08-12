@@ -1,12 +1,19 @@
-#title {
-    display: inline-block;
+@media screen and (min-width: 600px) {
+    #title {
+        display: inline-block;
+    }
+    
+    #lang {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    #description {
+        margin-top: 10px;
+    }
 }
 
-#lang {
-    float: right;
-    margin-top: 10px;
-}
-
-#description {
-    margin-top: 10px;
+#footer {
+    text-align: center;
+    
 }
